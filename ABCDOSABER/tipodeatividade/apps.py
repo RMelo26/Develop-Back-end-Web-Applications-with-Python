@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppbasicoConfig(AppConfig):
+class TipoDeAtividadeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'appbasico'
+    name = 'tipodeatividade'
