@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tipodeatividade.apps.TipoDeAtividadeConfig',  # Adicionando o app 'tipodeatividade'
+    'tipodeatividade.apps.TipoDeAtividadeConfig',
+    'titulos.apps.TitulosConfig',
 ]
 
 MIDDLEWARE = [
