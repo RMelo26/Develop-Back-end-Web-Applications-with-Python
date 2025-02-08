@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 
 # Modelo representando um Tipo de Atividade
-class TipoDeAtividade(models.Model):
+class alunos(models.Model):
     """Modelo representando um Tipo de Atividade"""
     codigo = models.AutoField(primary_key=True,
                                  help_text='Código do Tipo de Atividade')
@@ -11,4 +11,3 @@ class TipoDeAtividade(models.Model):
 
     def __str__(self):
         return f'{self.codigo} - {self.descricao}'
-
